@@ -27,7 +27,6 @@ class Inventory():
                 result.append(item.process_command(command))
         return result
 
-
 class Item():
     def __init__(self, name):
         self.name = name

@@ -31,7 +31,7 @@ function httpGet(theUrl)
     }
     return response
   }
-    
+
 function builtinRead(x) {
     if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined) {
         result = httpGet(x);
